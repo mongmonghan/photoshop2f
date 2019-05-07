@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>warning</title>
+		<style>
+			.wrap {height:2205px; width: 1200px; margin:auto}
+			.sec0{position: absolute; display:block;z-index: -1;}
+			.back {position: relative; display:block;}
+			.sec1{position: absolute; z-index: -1;}
+			.warning{position: relative;display:block;padding-top: 70px;}
+			.sec2 {position: relative; display:block;z-index: 0;}
+			.trash {position: absolute; top:1496px;}
+			.balloon{position: absolute; top:220px;left: 190px;overflow: hidden;}
+			.balloon:hover {opacity: 0.5;z-index: 0;transition: all 1s; transform: rotate(30deg);}
+.tele{position: absolute; top:1250px;left: 650px;
+			transition: all 1s; animation: ro 0.5s infinite alternate ease;}
+		@keyframes ro{
+  			from{left:650px;}
+  			to{left:670px;transform:rotate(5deg);}}
+			.sec3 {position: relative; display:block;z-index: 1;}
+			.gun{position: absolute; top:950px;left: 100px;animation: ro3 13s;animation-fill-mode: both;z-index:0}
+		@keyframes ro3{
+			to{transform:rotate(60deg);}}
+			
+		</style>
+</head>
+
+<body>
+	<div class="wrap">
+		<section class="sec0">
+			<img src="back.png" class="back">
+		</section>
+
+		<section class="sec1">
+			<img src="warning.png" class="warning">
+			<img src="warning.png" class="warning">
+			<img src="warning.png" class="warning">
+			<img src="warning.png" class="warning">
+			<img src="warning.png" class="warning">
+			<img src="warning.png" class="warning">
+			<img src="warning.png" class="warning">
+			<img src="warning.png" class="warning">
+		</section>
+
+		<section class="sec2">
+			<img src="back1.png" class="trash">
+			<img src="balloon.png" class="balloon">
+			<img src="tele.png" class="tele">
+		</section>
+
+		<section class="sec3">
+			<img src="gun.png" class="gun">
+		</section>
+	
+	</div>
+</body>
+
+</html>>
